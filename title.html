@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body><script type="text/javascript">
+		var introduction = getElementById("intro");
+var container = introduction.parentNode;
+var children = container.childNodes;
+alert ( children.length );
+	
+		var introduction = document.getElementById("intro");
+		var title_text = introduction.getAttribute("title");
+		document.getElementById("result").innerHTML = title_text;
+	</script>
+<p id="intro" title="introductory message">
+<p id="result"></p>
+</body>
+</html>
